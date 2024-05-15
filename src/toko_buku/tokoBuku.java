@@ -43,6 +43,7 @@ public class tokoBuku extends javax.swing.JFrame {
     public tokoBuku() {
         initComponents();
         loadModel();
+        setLocationRelativeTo(this); // layout ditengah
     }
     
     
