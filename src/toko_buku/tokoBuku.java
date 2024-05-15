@@ -7,7 +7,6 @@ package toko_buku;
 import java.sql.*;
 import java.awt.HeadlessException;
 import javax.swing.*;
-import java.sql.Connection;
 import javax.swing.table.DefaultTableModel;
 
 public class tokoBuku extends javax.swing.JFrame {
@@ -335,6 +334,8 @@ public class tokoBuku extends javax.swing.JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, e.getMessage());
         }
+
+        loadModel();
     }//GEN-LAST:event_button_updateActionPerformed
 
     private void button_deleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_deleteActionPerformed
